@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "com.example.shoppingcart";
+option java_multiple_files = true;
+
+message LoginPreferences {
+  string user = 1;
+  string password = 2;
+  bool logged = 3;
+}
+
+
+message ProductsItem{
+  int32 id = 1;
+  string image = 2;
+  string name = 3;
+  double price = 4;
+  string description = 5;
+}
+
+message CartProducts {
+  repeated ProductsItem products = 1;
+}

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ShoppingCart</string>
+    <string name="user">User</string>
+    <string name="please_enter_your_user_name">Please, enter your user name</string>
+    <string name="password">Password</string>
+    <string name="please_enter_your_password">Please, enter your password</string>
+    <string name="error_empty_field">Please, complete the field</string>
+    <string name="login">Login</string>
+    <string name="error_login">Invalid credential</string>
+    <string name="error_endpoint">Error in petition, please check your internet or try again later</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="pay">Pay</string>
+    <string name="total">"TOTAL: %.2f"</string>
+    <string name="purchase">Congratulations for your purchase!!!</string>
+    <string name="no_connection_internet">No connection internet</string>
+    <string name="ok">Ok</string>
+    <string name="authentication_error_biomettic">Authentication error: %1$s</string>
+    <string name="title_biometric">Welcome to shopping cart</string>
+    <string name="log_in_using_your_biometric_credential">Log in using your biometric credential</string>
+    <string name="use_credentials">Use credentials</string>
+    <string name="enter_product_name_to_search">Enter product name to search</string>
+</resources>
